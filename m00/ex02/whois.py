@@ -6,6 +6,7 @@ def main():
 #	print (len(sys.argv))	
 	if len(sys.argv)!= 2:
 		print ("AssertionError more than one argument are provided")
+		sys.exit(1)
 	x = av[1]
 #	print (x.isdigit())
 	if (x.isdigit() == True):
